@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import plot_precision_recall_curve, classification_report, precision_recall_curve
+from sklearn.metrics import plot_precision_recall_curve, classification_report
 from utils.clean import clean
 from utils.model import make_model, features_importance
 from utils.data import load_data
